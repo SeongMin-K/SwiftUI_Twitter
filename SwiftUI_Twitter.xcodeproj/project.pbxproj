@@ -11,6 +11,8 @@
 		3E1298642A4D52490079E632 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1298632A4D52490079E632 /* ContentView.swift */; };
 		3E1298662A4D524A0079E632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1298652A4D524A0079E632 /* Assets.xcassets */; };
 		3E1298692A4D524A0079E632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1298682A4D524A0079E632 /* Preview Assets.xcassets */; };
+		3E1298782A4D5C9F0079E632 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1298772A4D5C9F0079E632 /* FeedView.swift */; };
+		3E12987B2A4D5D460079E632 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12987A2A4D5D460079E632 /* TweetRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3E1298632A4D52490079E632 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E1298652A4D524A0079E632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1298682A4D524A0079E632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E1298772A4D5C9F0079E632 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		3E12987A2A4D5D460079E632 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,10 @@
 		3E1298602A4D52490079E632 /* SwiftUI_Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				3E12986F2A4D5BBB0079E632 /* Extensions */,
+				3E1298702A4D5BDA0079E632 /* Model */,
+				3E1298712A4D5BDA0079E632 /* Service */,
+				3E1298722A4D5BDB0079E632 /* Core */,
 				3E1298612A4D52490079E632 /* SwiftUI_TwitterApp.swift */,
 				3E1298632A4D52490079E632 /* ContentView.swift */,
 				3E1298652A4D524A0079E632 /* Assets.xcassets */,
@@ -65,6 +73,76 @@
 				3E1298682A4D524A0079E632 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E12986F2A4D5BBB0079E632 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E1298702A4D5BDA0079E632 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E1298712A4D5BDA0079E632 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3E1298722A4D5BDB0079E632 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E1298732A4D5C170079E632 /* Components */,
+				3E1298742A4D5C270079E632 /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3E1298732A4D5C170079E632 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3E1298792A4D5D140079E632 /* Tweets */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3E1298742A4D5C270079E632 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				3E1298752A4D5C7A0079E632 /* ViewModels */,
+				3E1298762A4D5C810079E632 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		3E1298752A4D5C7A0079E632 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3E1298762A4D5C810079E632 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E1298772A4D5C9F0079E632 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E1298792A4D5D140079E632 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				3E12987A2A4D5D460079E632 /* TweetRowView.swift */,
+			);
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E1298642A4D52490079E632 /* ContentView.swift in Sources */,
+				3E12987B2A4D5D460079E632 /* TweetRowView.swift in Sources */,
+				3E1298782A4D5C9F0079E632 /* FeedView.swift in Sources */,
 				3E1298622A4D52490079E632 /* SwiftUI_TwitterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
