@@ -18,6 +18,7 @@
 		3E1298862A4D65720079E632 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1298852A4D65720079E632 /* NotificationsView.swift */; };
 		3E1298882A4D65930079E632 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1298872A4D65930079E632 /* MessagesView.swift */; };
 		3E12988C2A4D67D90079E632 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12988B2A4D67D90079E632 /* ProfileView.swift */; };
+		3E6746242A4E9B3F00743E4C /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6746232A4E9B3F00743E4C /* TweetFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3E1298852A4D65720079E632 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		3E1298872A4D65930079E632 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		3E12988B2A4D67D90079E632 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3E6746232A4E9B3F00743E4C /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		3E1298892A4D67C40079E632 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3E6746232A4E9B3F00743E4C /* TweetFilterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				3E12988C2A4D67D90079E632 /* ProfileView.swift in Sources */,
 				3E1298642A4D52490079E632 /* ContentView.swift in Sources */,
 				3E12987B2A4D5D460079E632 /* TweetRowView.swift in Sources */,
+				3E6746242A4E9B3F00743E4C /* TweetFilterViewModel.swift in Sources */,
 				3E1298862A4D65720079E632 /* NotificationsView.swift in Sources */,
 				3E1298782A4D5C9F0079E632 /* FeedView.swift in Sources */,
 				3E1298622A4D52490079E632 /* SwiftUI_TwitterApp.swift in Sources */,
